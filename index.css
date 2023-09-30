@@ -1,0 +1,112 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Bespoke Stencil', sans-serif;
+
+}
+body{
+  background: black;
+  background-image:url(images/sa.jpeg) ;
+  background-repeat: no-repeat;
+  background-size:28em;
+
+  
+}
+
+.container{ 
+  width: 80%;
+  margin-top: 4em;
+  margin-left: 22px;
+  border-radius: 20px;
+  padding: 20px;
+  height:600px;
+  /*background-color: rgba(255, 255, 255, 0.315);*/
+
+}
+.title{
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgb(99, 180, 89);
+  font-family: 'Bespoke Stencil', sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 3.5em;
+  color: #fff;
+}
+.button{
+  display: flex;
+  position: absolute;
+  left: 7.5em;
+  top: 32em;
+  margin: 20px;
+  padding: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #fff, 0 0 10px #ddd inset;  color: aliceblue;
+  background-color: rgb(61, 70, 75);
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgb(104, 139, 143);
+  }
+  100% {
+    box-shadow: 0 0 20px rgb(104, 139, 143), 0 0 30px rgb(104, 139, 143), 0 0 40px rgb(104, 139, 143);
+  }
+}
+
+.container2{
+  background-color: rgb(255, 255, 255);
+  background-size: 700em;
+  height: 49em;
+}
+.mainContent{
+  width: 90%;
+  height: 600px;
+  /*background-color:rgba(182, 214, 152, 0.527) ;*/
+  margin-left: 0px;
+  position: relative;
+  top: 4em;
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+.cub{
+  display: flex;
+  background-color: rgba(128, 131, 114, 0.662);
+  padding-top: 20px;
+  padding-bottom:20px ;
+  padding-left: 10px;
+  padding-right:10px ;
+  border-radius: 30px;
+  color: #ffffff;
+}
+.image1{
+  width: 30%;
+  border-radius: 50%;
+  border: solid 3px #000000;
+}
+h2{
+  position: relative;
+  top: 0.2em;
+  left: 6px;
+}
+
+.paragraph{
+  margin-top: 2em;
+  border-radius: 30px;
+  padding: 17px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  word-spacing: 2px;
+  line-height: 1.5;
+  text-align:justify;
+  background-color: rgba(128, 131, 114, 0.662);
+
+}
+
